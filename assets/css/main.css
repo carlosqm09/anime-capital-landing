@@ -15,7 +15,14 @@
     --y3lw: #FFBF00;
     --size: 1em;
     --grid: 16em;
-    --sans: 'T10', sans-serif
+    --sans: 'Osaka Sans'
+}
+
+@font-face {
+    font-family: 'Osaka Sans';
+    src: url('/assets/font/osaka-re.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
 }
 
 html {
