@@ -20,7 +20,7 @@
 
 @font-face {
     font-family: 'Osaka Sans';
-    src: url('/assets/font/osaka-re.ttf') format('truetype');
+    src: url('./assets/font/osaka-re.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
