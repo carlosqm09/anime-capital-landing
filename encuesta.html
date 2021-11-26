@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>App de anime - AnimeCapital.com</title>
+    <meta name="description" content="La mejor aplicación móvil para ver anime en tu celular, regístrate gratis y disfruta de esta magnífica experiencia.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#fff">
+    <meta name="theme-color" content="#fff" />
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="icon" href="./assets/img/AniCap Logo.png">
+</head>
+
+<body x-data="{ rMenu: false }" @keydown.escape="rMenu = false">
+
+    <header id="header" role="banner" class="or0">
+        <div class="cnt dfx aic py16 b-py32 d-py64 por">
+            <button class="btn lk-c c1-c-h mr24 c-dno px0 f12 a-f14 bgt bgt-h bd0" type="button" :class="{ 'c1-c' : rMenu}" @click="rMenu = !rMenu">
+<svg :class="{ 'dno' : rMenu}" class="ico f24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+<g stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" stroke="#111111">
+<line fill="none" stroke-miterlimit="10" x1="1" y1="12" x2="14" y2="12"></line>
+<line fill="none" stroke-miterlimit="10" x1="1" y1="5" x2="23" y2="5"></line>
+<line fill="none" stroke-miterlimit="10" x1="1" y1="19" x2="23" y2="19"></line>
+</g>
+</svg>
+<svg :class="{ 'dno' : !rMenu}" class="ico f24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+<g stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" stroke="#111111">
+<line fill="none" stroke-miterlimit="10" x1="19" y1="5" x2="5" y2="19"></line>
+<line fill="none" stroke-miterlimit="10" x1="19" y1="19" x2="5" y2="5"></line>
+</g>
+</svg>
+</button>
+
+            <a>
+                <img src="./assets/img/result.svg" height="40" width="296.64" style="color: aliceblue;">
+            </a>
+
+            <nav class="menu dno c-dfx br08 mx16" :class="{ 'dbk poa lt0 rt0' : rMenu}">
+                <ul class="ttu c-dfx c-gg24 c-f14 d-gg48">
+                    <li class="current"> <a href="https://carlosqm09.github.io/anime-capital-landing/">Inicio</a> </li>
+                    <li> <a href="./encuesta">Envianos tu opinion</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8aYenpYuJ_aR6GZDAqeHW55ru55Dy1cF2QtrfGJsb8p475g/viewform?embedded=true" width="auto" height="1137" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+
+    <footer id="footer" role="contentinfo" class="py16 mb48 d-py64">
+        <div class="cnt tac py16 b-py32 d-py64">
+            <figure>
+                <img src="./assets/img/result.svg" height="40" width="296.64" style="color: aliceblue;">
+            </figure>
+            <p class="a-f20 op05 mt16 ls1"> 2021 © AnimeCapital </p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <script src="/assets/js/functions.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1XJ417TX5W"></script>
+
+</body>
+
+</html>

@@ -32,6 +32,10 @@ html {
     line-height: 1.15
 }
 
+html.m2 {
+    overflow-y: hidden !important;
+}
+
 body {
     margin: 0;
     word-wrap: break-word;
