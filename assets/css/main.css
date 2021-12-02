@@ -5848,7 +5848,7 @@ small {
         color: var(--wht3)
     }
     
-    .menu .current a:active {
+    .menu .current li a:active {
         border-left-color: var(--clr1)
     }
     
