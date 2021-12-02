@@ -411,6 +411,10 @@ textarea {
     min-height: 4em
 }
 
+.or0 img {
+    height: 250px;
+}
+
 select {
     appearance: none;
     background-image: url(data:image/svg+xml;
@@ -1605,7 +1609,9 @@ small {
 .w3-c-h:hover {
     color: var(--wht3)
 }
-.bk-c,
+.bk-c {
+    color: var(--wht3)
+}
 .bk-c-h:hover {
     color: var(--blck)
 }
@@ -3069,12 +3075,6 @@ small {
     }
     
     .b-pd32,
-    .b-pt32,
-    .b-py32 {
-        padding-top: 2em
-    }
-    
-    .b-pd32,
     .b-pr32,
     .b-px32 {
         padding-right: 2em
@@ -3832,12 +3832,6 @@ small {
     .c-pdl,
     .c-pdx {
         padding-left: .5em
-    }
-    
-    .c-pd16,
-    .c-pt16,
-    .c-py16 {
-        padding-top: 1em
     }
     
     .c-pd16,
@@ -4766,12 +4760,6 @@ small {
     .d-pl48,
     .d-px48 {
         padding-left: 3em
-    }
-    
-    .d-pd64,
-    .d-pt64,
-    .d-py64 {
-        padding-top: 4em
     }
     
     .d-pd64,
